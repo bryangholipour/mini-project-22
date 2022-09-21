@@ -1,3 +1,8 @@
+body{
+
+}
+
+
 header {
     height: 100px;
     width: 100%;
@@ -5,12 +10,21 @@ header {
     background-color: #999900;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: none;
-   
+    line-height:60px;
     
   }
   section {
     margin: auto;
 
+  }
+
+.text-left{
+    text-align: left;
+}
+ 
+a{
+    text-decoration: none;
+    color:#191970;
   }
   
   h1, h2, h3 {
@@ -26,14 +40,12 @@ header {
     position:relative;
     display: inline;
     margin: 20px 20px;
+    padding: 10px 10px;
+    
     
 
       }
 
-  .header {
-    
-    
-  }
   
   footer {
       width: 100%;
